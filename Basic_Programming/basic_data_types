@@ -1,0 +1,25 @@
+#include<"stdio.h">
+int main()
+{
+
+char a; 
+int b; 
+float c; 
+double d;
+printf("Enter a character: "); 
+a = getchar();
+getchar();
+printf("Enter an integer value: "); 
+scanf("%d", &b);
+printf("Enter a float value: "); 
+scanf("%f", &c);
+printf("Enter a double value: "); 
+scanf("%lf", &d);
+ 
+printf("\nYou entered character: '%c' \n", a); 
+printf("You entered signed int: %d \n", b); 
+printf("You entered float: %f \n", c); 
+printf("You entered double: %lf \n", d);
+
+return 0;
+}
