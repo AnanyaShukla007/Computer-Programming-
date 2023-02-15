@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+int k;
+int j;
+int l;
+int m;
+int n;
+int o;
+scanf("%d%d",&k,&j);
+l=k+j;
+m=k-j;
+n=k*j;
+o=k/j;
+printf("%d+%d=%d\n",k,j,l);
+printf("%d-%d=%d\n",k,j,m);
+printf("%d*%d=%d\n",k,j,n);
+printf("%d/%d=%d\n",k,j,o);
+   
+    return 0;
+}
