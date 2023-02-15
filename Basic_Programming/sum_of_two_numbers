@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+int k;
+int j;
+int l;
+scanf("%d%d",&k,&j);
+l=k+j;
+printf("%d+%d=%d",k,j,l);
+   
+    return 0;
+}
