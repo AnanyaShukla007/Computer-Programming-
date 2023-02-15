@@ -1,0 +1,13 @@
+#include<stdio.h> 
+int main()
+{
+float cm;
+float m;
+float km;
+scanf("%f",&cm);
+m=cm/100;
+km=cm/100000;
+printf(" %.2f\n",m);
+printf("%.2f\n",km);
+return 0;
+}
