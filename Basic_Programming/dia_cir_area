@@ -1,0 +1,15 @@
+#include<stdio.h> 
+int main()
+{
+float r=2.2;
+float d;
+float c;
+float a;
+d=r*2;
+c=2*3.14*r;
+a=3.14*r*r;
+printf("diameter of circle is %.2f\n",d);
+printf("circumference of circle is %.2f\n",c);
+printf("Area of circle is %.2f",a);
+return 0;
+}
