@@ -1,0 +1,10 @@
+#include<stdio.h> 
+#include<math.h>
+int main()
+{
+int p,t,r,n,SI; 
+scanf("%d%d%d%",&p,&t,&r,&n);
+SI=pow((p*(1+(r*t)/100),n); 
+printf("compound interest %d",CI); 
+return 0;
+}
