@@ -1,0 +1,17 @@
+#include <stdio.h>
+void sum(int r){
+    int e,f,g;
+    e = (3.14)*r*r;
+    f = 2*r;
+    g = 2*(3.14)*r;
+    printf("%d\n",e);
+    printf("%d\n",f);
+    printf("%d\n",g);
+}
+int main(int argc, char const *argv[])
+{
+    int r;
+    scanf("%d",&r);
+    sum(r);
+    return 0;
+}
